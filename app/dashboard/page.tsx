@@ -325,9 +325,11 @@ export default function DashboardPage() {
                     <CardDescription>Válido en estaciones asociadas</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="aspect-video bg-gradient-to-br from-amber-100 to-amber-200 dark:from-amber-900 dark:to-amber-800 rounded-md flex items-center justify-center mb-2">
+                    <div
+                      className="aspect-video bg-[url('/gasolina.jpeg')] bg-cover bg-center rounded-md flex items-center justify-center mb-2"
+                    >
                       <svg
-                        className="h-12 w-12 text-amber-600 dark:text-amber-400"
+                        className="h-12 w-12 text-white"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -348,6 +350,7 @@ export default function DashboardPage() {
                       <p className="text-sm font-medium text-green-600">500 créditos</p>
                     </div>
                   </CardContent>
+
                   <CardFooter>
                     <Button size="sm" className="w-full">
                       Canjear
@@ -360,9 +363,9 @@ export default function DashboardPage() {
                     <CardDescription>Válido en metro y autobuses</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="aspect-video bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 rounded-md flex items-center justify-center mb-2">
+                    <div className="aspect-video bg-[url('/transporte.jpeg')] bg-cover bg-center rounded-md flex items-center justify-center mb-2">
                       <svg
-                        className="h-12 w-12 text-blue-600 dark:text-blue-400"
+                        className="h-12 w-12 text-white"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -380,6 +383,7 @@ export default function DashboardPage() {
                       <p className="text-sm font-medium text-green-600">300 créditos</p>
                     </div>
                   </CardContent>
+
                   <CardFooter>
                     <Button size="sm" className="w-full">
                       Canjear
@@ -392,9 +396,9 @@ export default function DashboardPage() {
                     <CardDescription>Válido en tu próxima factura</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="aspect-video bg-gradient-to-br from-yellow-100 to-yellow-200 dark:from-yellow-900 dark:to-yellow-800 rounded-md flex items-center justify-center mb-2">
+                    <div className="aspect-video bg-[url('/electricidad.jpeg')] bg-cover bg-center rounded-md flex items-center justify-center mb-2">
                       <svg
-                        className="h-12 w-12 text-yellow-600 dark:text-yellow-400"
+                        className="h-12 w-12 text-white"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -413,6 +417,7 @@ export default function DashboardPage() {
                       <p className="text-sm font-medium text-green-600">800 créditos</p>
                     </div>
                   </CardContent>
+
                   <CardFooter>
                     <Button size="sm" className="w-full">
                       Canjear
@@ -433,8 +438,8 @@ export default function DashboardPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="aspect-video relative mb-2">
-                      <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-emerald-100 to-teal-200 dark:from-emerald-900 dark:to-teal-800 rounded-md flex items-center justify-center">
-                        <MapPin className="h-12 w-12 text-emerald-600 dark:text-emerald-400" />
+                      <div className="absolute inset-0 w-full h-full bg-[url('/centro1.jpeg')] bg-cover bg-center rounded-md flex items-center justify-center">
+                        <MapPin className="h-12 w-12 text-white" />
                       </div>
                     </div>
                     <div className="space-y-1">
@@ -446,6 +451,7 @@ export default function DashboardPage() {
                       </div>
                     </div>
                   </CardContent>
+
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" size="sm">
                       Ver detalles
@@ -460,8 +466,10 @@ export default function DashboardPage() {
                   </CardHeader>
                   <CardContent>
                     <div className="aspect-video relative mb-2">
-                      <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-emerald-100 to-teal-200 dark:from-emerald-900 dark:to-teal-800 rounded-md flex items-center justify-center">
-                        <MapPin className="h-12 w-12 text-emerald-600 dark:text-emerald-400" />
+                      <div className="absolute inset-0 w-full h-full bg-[url('/centro2.jpeg')] bg-cover bg-center rounded-md">
+                        <div className="w-full h-full bg-black/30 flex items-center justify-center rounded-md">
+                          <MapPin className="h-12 w-12 text-white" />
+                        </div>
                       </div>
                     </div>
                     <div className="space-y-1">
@@ -473,6 +481,7 @@ export default function DashboardPage() {
                       </div>
                     </div>
                   </CardContent>
+
                   <CardFooter className="flex justify-between">
                     <Button variant="outline" size="sm">
                       Ver detalles

@@ -30,7 +30,7 @@ export default function CreditsPage() {
       description: "10% de descuento en estaciones asociadas",
       credits: 500,
       category: "transport",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/gasolina.jpeg?height=120&width=240",
       expiry: "30 días",
     },
     {
@@ -39,7 +39,7 @@ export default function CreditsPage() {
       description: "2 viajes gratis en metro y autobuses",
       credits: 300,
       category: "transport",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/transporte.jpeg?height=120&width=240",
       expiry: "60 días",
     },
     {
@@ -48,7 +48,7 @@ export default function CreditsPage() {
       description: "5% de descuento en tu próxima factura",
       credits: 800,
       category: "utilities",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/electricidad.jpeg?height=120&width=240",
       expiry: "45 días",
     },
     {
@@ -57,7 +57,7 @@ export default function CreditsPage() {
       description: "8% de descuento en productos seleccionados",
       credits: 400,
       category: "shopping",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/supermercado.jpeg?height=120&width=240",
       expiry: "30 días",
     },
     {
@@ -66,7 +66,7 @@ export default function CreditsPage() {
       description: "Una entrada gratis para cualquier película",
       credits: 600,
       category: "entertainment",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/cine.jpeg?height=120&width=240",
       expiry: "60 días",
     },
     {
@@ -75,7 +75,7 @@ export default function CreditsPage() {
       description: "Un café gratis en cafeterías asociadas",
       credits: 200,
       category: "food",
-      image: "/placeholder.svg?height=120&width=240",
+      image: "/cafe.jpeg?height=120&width=240",
       expiry: "30 días",
     },
   ]
