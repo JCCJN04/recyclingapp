@@ -45,23 +45,20 @@ export function PlasticTypeGuide() {
               </div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center">
-                <span className="text-blue-700 dark:text-blue-300 font-medium text-center px-2">Botella de leche</span>
+              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center p-2">
+                <img src="/hdpe/botella-leche.jpeg" alt="Botella de leche" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center">
-                <span className="text-blue-700 dark:text-blue-300 font-medium text-center px-2">
-                  Envase de detergente
-                </span>
+              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center p-2">
+                <img src="/hdpe/detergente.jpeg" alt="Envase de detergente" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center">
-                <span className="text-blue-700 dark:text-blue-300 font-medium text-center px-2">Botella de champú</span>
+              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center p-2">
+                <img src="/hdpe/shampoo.jpeg" alt="Botella de champú" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center">
-                <span className="text-blue-700 dark:text-blue-300 font-medium text-center px-2">
-                  Juguete de plástico
-                </span>
+              <div className="aspect-square bg-blue-100 dark:bg-blue-900 rounded-md flex items-center justify-center p-2">
+                <img src="/hdpe/juguete.jpeg" alt="Juguete de plástico" className="max-h-full max-w-full object-contain" />
               </div>
             </div>
+
           </CardContent>
         </Card>
       </TabsContent>
@@ -101,25 +98,36 @@ export function PlasticTypeGuide() {
               </div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center">
-                <span className="text-green-700 dark:text-green-300 font-medium text-center px-2">
-                  Bolsas de plástico
-                </span>
-              </div>
-              <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center">
-                <span className="text-green-700 dark:text-green-300 font-medium text-center px-2">
-                  Envoltura de alimentos
-                </span>
-              </div>
-              <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center">
-                <span className="text-green-700 dark:text-green-300 font-medium text-center px-2">Bolsa para pan</span>
-              </div>
-              <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center">
-                <span className="text-green-700 dark:text-green-300 font-medium text-center px-2">
-                  Botella exprimible
-                </span>
-              </div>
+            <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/ldpe/bolsa.jpeg"
+                alt="Bolsas de plástico"
+                className="object-contain h-full"
+              />
             </div>
+            <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/ldpe/alimento.jpeg"
+                alt="Envoltura de alimentos"
+                className="object-contain h-full"
+              />
+            </div>
+            <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/ldpe/pan.jpeg"
+                alt="Bolsa para pan"
+                className="object-contain h-full"
+              />
+            </div>
+            <div className="aspect-square bg-green-100 dark:bg-green-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/ldpe/botella.jpeg"
+                alt="Botella exprimible"
+                className="object-contain h-full"
+              />
+            </div>
+          </div>
+
           </CardContent>
         </Card>
       </TabsContent>
@@ -159,21 +167,35 @@ export function PlasticTypeGuide() {
               </div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center">
-                <span className="text-red-700 dark:text-red-300 font-medium text-center px-2">
-                  Contenedor de alimentos
-                </span>
-              </div>
-              <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center">
-                <span className="text-red-700 dark:text-red-300 font-medium text-center px-2">Tapas de botellas</span>
-              </div>
-              <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center">
-                <span className="text-red-700 dark:text-red-300 font-medium text-center px-2">Pajitas/popotes</span>
-              </div>
-              <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center">
-                <span className="text-red-700 dark:text-red-300 font-medium text-center px-2">Envase de yogurt</span>
-              </div>
+            <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/pp/contenedor.jpeg"
+                alt="Contenedor de alimentos"
+                className="object-contain h-full"
+              />
             </div>
+            <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/pp/tapas.jpeg"
+                alt="Tapas de botellas"
+                className="object-contain h-full"
+              />
+            </div>
+            <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/pp/popotes.jpeg"
+                alt="Pajitas/popotes"
+                className="object-contain h-full"
+              />
+            </div>
+            <div className="aspect-square bg-red-100 dark:bg-red-900 rounded-md flex items-center justify-center overflow-hidden">
+              <img
+                src="/pp/yogurt.jpeg"
+                alt="Envase de yogurt"
+                className="object-contain h-full"
+              />
+            </div>
+          </div>
           </CardContent>
         </Card>
       </TabsContent>
