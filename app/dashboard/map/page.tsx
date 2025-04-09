@@ -198,7 +198,7 @@ export default function MapPage() {
             <CardContent className="p-0 h-full">
               <div className="relative w-full h-[500px] md:h-full">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/map.jpeg?height=600&width=800"
                   alt="Mapa de centros de reciclaje"
                   fill
                   className="object-cover"

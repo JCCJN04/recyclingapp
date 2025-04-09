@@ -259,8 +259,10 @@ export default function CreditsPage() {
                                 width={240}
                                 height={120}
                                 alt={reward.title}
-                                className="rounded-md object-cover mb-2 w-full"
+                                className="rounded-md object-cover mb-2"
+                                style={{ width: '240px', height: '120px' }}
                               />
+
                               <div className="flex items-center justify-between">
                                 <Badge variant="outline" className="font-normal">
                                   Expira en {reward.expiry}
@@ -278,11 +280,13 @@ export default function CreditsPage() {
                           <div className="space-y-4">
                             <Image
                               src={reward.image || "/placeholder.svg"}
-                              width={400}
-                              height={200}
+                              width={240}
+                              height={120}
                               alt={reward.title}
-                              className="rounded-md object-cover w-full"
+                              className="rounded-md object-cover mb-2"
+                              style={{ width: '240px', height: '120px' }}
                             />
+
 
                             <div className="space-y-2">
                               <div className="flex justify-between">
@@ -352,8 +356,10 @@ export default function CreditsPage() {
                               width={240}
                               height={120}
                               alt={reward.title}
-                              className="rounded-md object-cover mb-2 w-full"
+                              className="rounded-md object-cover mb-2"
+                              style={{ width: '240px', height: '120px' }}
                             />
+                          
                             <div className="flex items-center justify-between">
                               <Badge variant="outline" className="font-normal">
                                 Expira en {reward.expiry}
@@ -385,8 +391,10 @@ export default function CreditsPage() {
                               width={240}
                               height={120}
                               alt={reward.title}
-                              className="rounded-md object-cover mb-2 w-full"
+                              className="rounded-md object-cover mb-2"
+                              style={{ width: '240px', height: '120px' }}
                             />
+                          
                             <div className="flex items-center justify-between">
                               <Badge variant="outline" className="font-normal">
                                 Expira en {reward.expiry}
@@ -418,8 +426,10 @@ export default function CreditsPage() {
                               width={240}
                               height={120}
                               alt={reward.title}
-                              className="rounded-md object-cover mb-2 w-full"
+                              className="rounded-md object-cover mb-2"
+                              style={{ width: '240px', height: '120px' }}
                             />
+                          
                             <div className="flex items-center justify-between">
                               <Badge variant="outline" className="font-normal">
                                 Expira en {reward.expiry}
